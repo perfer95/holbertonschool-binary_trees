@@ -51,5 +51,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 
 /*Auxiliar Functions*/
 size_t binary_tree_height_v2(const binary_tree_t *tree);
+int aux_perfect(const binary_tree_t *tree);
 
 #endif
