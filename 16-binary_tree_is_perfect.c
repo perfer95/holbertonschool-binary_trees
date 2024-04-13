@@ -39,7 +39,7 @@ int aux_perfect(const binary_tree_t *tree)
 		right = 1 + aux_perfect(tree->right);
 
 		if ((right == left) && (right != 0) && (left != 0))
-			return (rigth);
+			return (right);
 		return (0);
 	}
 	else if ((tree->left == NULL) && (tree->right == NULL))
